@@ -35,7 +35,6 @@ public class PasswordvalTest {
         String[] args = null;
         Passwordval.main(args);
         // TODO review the generated test code and remove the default call to fail.
-        fail("The test case is a prototype.");
     }
 
     /**
@@ -50,7 +49,6 @@ public class PasswordvalTest {
         int result = Passwordval.checkLength(pass, specificChar);
         assertEquals(expResult, result);
         // TODO review the generated test code and remove the default call to fail.
-        fail("The test case is a prototype.");
     }
 
     /**
@@ -63,7 +61,6 @@ public class PasswordvalTest {
         char result = Passwordval.maxChar();
         assertEquals(expResult, result);
         // TODO review the generated test code and remove the default call to fail.
-        fail("The test case is a prototype.");
     }
 
     /**
@@ -77,7 +74,6 @@ public class PasswordvalTest {
         boolean result = Passwordval.specificChar(pass);
         assertEquals(expResult, result);
         // TODO review the generated test code and remove the default call to fail.
-        fail("The test case is a prototype.");
     }
     
 }
